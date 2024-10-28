@@ -1,8 +1,8 @@
 package colorcoder;
 
 public class ColorPair {
-    private MajorColor majorColor;
-    private MinorColor minorColor;
+    public MajorColor majorColor;
+    public MinorColor minorColor;
 
     public ColorPair(MajorColor major, MinorColor minor) {
         majorColor = major;
