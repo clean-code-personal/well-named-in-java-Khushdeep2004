@@ -7,18 +7,19 @@ public enum MajorColor implements Color {
     YELLOW(3),
     VIOLET(4);
 
-    private int index;
-
-    MajorColor(int index) {
-        this.index = index;
-    }
-
-    @Override
-    public int getIndex() {
-        return index;
-    }
-
-    public static MajorColor fromIndex(int index) {
-        return Color.fromIndex(index, MajorColor.values());
+     private int index;
+        private MajorColor(int index) {
+            this.index = index;
+        }
+        int getIndex() {
+            return index;
+        }
+        public static MajorColor fromIndex(int index) {
+            for(MajorColor color: MajorColor.values()) {
+                if(color.getIndex() == index) {
+                    return color;
+                }
+            }
+            return null;
     }
 }
