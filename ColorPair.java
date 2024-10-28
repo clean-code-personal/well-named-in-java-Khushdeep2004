@@ -19,9 +19,9 @@ public class ColorPair {
 
     @Override
      String ToString() {
-            String colorPairStr = MajorColorNames[majorColor.getIndex()];
+            String colorPairStr = ColorConstants.MajorColorNames[majorColor.getIndex()];
             colorPairStr += " ";
-            colorPairStr += MinorColorNames[minorColor.getIndex()];
+            colorPairStr += ColorConstants.MinorColorNames[minorColor.getIndex()];
             return colorPairStr;
         }
 }
