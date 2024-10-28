@@ -8,7 +8,7 @@ public enum MajorColor {
     VIOLET(4);
 
      public int index;
-        public MajorColor(int index) {
+         MajorColor(int index) {
             this.index = index;
         }
         int getIndex() {
