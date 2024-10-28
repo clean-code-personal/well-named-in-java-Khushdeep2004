@@ -4,7 +4,7 @@ public class ColorPair {
     public MajorColor majorColor;
     public MinorColor minorColor;
 
-    public ColorPair(MajorColor major, MinorColor minor) {
+    ColorPair(MajorColor major, MinorColor minor) {
         majorColor = major;
         minorColor = minor;
     }
@@ -17,7 +17,7 @@ public class ColorPair {
         return minorColor;
     }
 
-    @Override
+
      String ToString() {
             String colorPairStr = ColorConstants.MajorColorNames[majorColor.getIndex()];
             colorPairStr += " ";
