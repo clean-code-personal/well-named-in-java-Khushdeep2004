@@ -111,10 +111,10 @@ public class Main {
     // }
 
     public static void main(String[] args) {
-         ColorPairTester.testNumberToPair(4, MajorColor.WHITE, MinorColor.BROWN);
-         ColorPairTester.testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
+         ColorPairTest.testNumberToPair(4, MajorColor.WHITE, MinorColor.BROWN);
+         ColorPairTest.testNumberToPair(5, MajorColor.WHITE, MinorColor.SLATE);
     
-         ColorPairTester.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
-         ColorPairTester.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
+         ColorPairTest.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
+         ColorPairTest.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
     }
 }
