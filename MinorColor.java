@@ -7,8 +7,8 @@ public enum MinorColor {
     BROWN(3),
     SLATE(4);
 
-     private int index;
-        private MinorColor(int index) {
+     public int index;
+        public MinorColor(int index) {
             this.index = index;
         }
         int getIndex() {
